@@ -25,7 +25,7 @@
 //    2 创建全屏滑动返回手势
     UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc] initWithTarget:target action:@selector(handleNavigationTransition:)];
     
-//    3 设置手势代理
+//    3 设置手势代理d
     pan.delegate = self;
     
 //    4 给导航器里面的view加上手势
